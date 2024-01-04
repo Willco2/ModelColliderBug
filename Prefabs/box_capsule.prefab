@@ -1,0 +1,33 @@
+{
+  "RootObject": {
+    "Id": "0bec6809-2d16-45a6-8a51-99d2f0c20fa1",
+    "Name": "box_capsule",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "ModelRenderer",
+        "__enabled": true,
+        "BodyGroups": 18446744073709551615,
+        "MaterialGroup": null,
+        "MaterialOverride": null,
+        "Model": "models/box.vmdl",
+        "RenderType": "On",
+        "Tint": "1,1,1,1"
+      },
+      {
+        "__type": "CapsuleCollider",
+        "__enabled": true,
+        "End": "0,0,16",
+        "IsTrigger": false,
+        "Radius": 8,
+        "Start": "0,0,0",
+        "Static": false,
+        "Surface": null
+      }
+    ]
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "__references": []
+}

@@ -74,7 +74,46 @@
         {
           "__type": "PrefabSpawner",
           "__enabled": true,
-          "Prefab": "prefabs/box.prefab"
+          "Prefab": "prefabs/box_box.prefab"
+        }
+      ]
+    },
+    {
+      "Id": "0e030490-c4fd-42dd-9cc1-419b76ce9ff7",
+      "Name": "Spawner (1)",
+      "Position": "0,100,0",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "PrefabSpawner",
+          "__enabled": true,
+          "Prefab": "prefabs/box_model.prefab"
+        }
+      ]
+    },
+    {
+      "Id": "f4d705d2-1879-4a2e-979f-a37b1f6548f2",
+      "Name": "Spawner (2)",
+      "Position": "0,150,0",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "PrefabSpawner",
+          "__enabled": true,
+          "Prefab": "prefabs/box_sphere.prefab"
+        }
+      ]
+    },
+    {
+      "Id": "d305f4ee-3cab-469f-be45-53db069d222a",
+      "Name": "Spawner (3)",
+      "Position": "0,200,0",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "PrefabSpawner",
+          "__enabled": true,
+          "Prefab": "prefabs/box_capsule.prefab"
         }
       ]
     }

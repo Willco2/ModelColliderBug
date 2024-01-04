@@ -1,0 +1,31 @@
+{
+  "RootObject": {
+    "Id": "22cc45f8-111e-4e00-b7ae-cd366c994690",
+    "Name": "box_model",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "ModelRenderer",
+        "__enabled": true,
+        "BodyGroups": 18446744073709551615,
+        "MaterialGroup": null,
+        "MaterialOverride": null,
+        "Model": "models/box.vmdl",
+        "RenderType": "On",
+        "Tint": "1,1,1,1"
+      },
+      {
+        "__type": "ModelCollider",
+        "__enabled": true,
+        "IsTrigger": false,
+        "Model": "models/box.vmdl",
+        "Static": false,
+        "Surface": null
+      }
+    ]
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "__references": []
+}

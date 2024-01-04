@@ -1,7 +1,7 @@
 {
   "RootObject": {
-    "Id": "cc60ae2e-09c1-4c24-842f-fa0f6e7b913d",
-    "Name": "box",
+    "Id": "c3a8bdae-cd68-44d6-9be3-071387804820",
+    "Name": "box_box",
     "Enabled": true,
     "Components": [
       {
@@ -15,10 +15,11 @@
         "Tint": "1,1,1,1"
       },
       {
-        "__type": "ModelCollider",
+        "__type": "BoxCollider",
         "__enabled": true,
+        "Center": "0,0,0",
         "IsTrigger": false,
-        "Model": "models/box.vmdl",
+        "Scale": "10,10,10",
         "Static": false,
         "Surface": null
       }

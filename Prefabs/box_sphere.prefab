@@ -1,0 +1,32 @@
+{
+  "RootObject": {
+    "Id": "bae02b16-d7bb-42f0-864f-9832c3bfaaac",
+    "Name": "box_sphere",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "ModelRenderer",
+        "__enabled": true,
+        "BodyGroups": 18446744073709551615,
+        "MaterialGroup": null,
+        "MaterialOverride": null,
+        "Model": "models/box.vmdl",
+        "RenderType": "On",
+        "Tint": "1,1,1,1"
+      },
+      {
+        "__type": "SphereCollider",
+        "__enabled": true,
+        "Center": "0,0,0",
+        "IsTrigger": false,
+        "Radius": 8,
+        "Static": false,
+        "Surface": null
+      }
+    ]
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "__references": []
+}
